@@ -2,6 +2,7 @@
 // Works: Create Components
 
 import Counter from './Components/Counter';
+import Effects from './Components/Effects';
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
         <Person name="Taskin Ahmed" playRole="Bowler" age="29" val="100K"></Person>
       </header>
       <Counter/>
+      <Effects/>
     </div>
   );
 }
