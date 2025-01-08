@@ -1,7 +1,8 @@
 // Author: Md Humayan Kabir
 // Works: Create Components
 
-import logo from './logo.svg';
+import Counter from './Components/Counter';
+// import logo from './logo.svg';
 // import './App.css';
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
         <Person name="Mushfiqur Rahim" playRole="Wicket-Keeper " age="37" val="100K"></Person>
         <Person name="Mustafizur Rahman" playRole="Bowler" age="29" val="100K"></Person>
         <Person name="Taskin Ahmed" playRole="Bowler" age="29" val="100K"></Person>
-        
       </header>
+      <Counter/>
     </div>
   );
 }
